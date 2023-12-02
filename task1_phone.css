@@ -1,0 +1,167 @@
+.navbar{
+    position: relative;
+    flex-direction: column;
+    background-color: rgb(25, 33, 33);
+    z-index: 1;
+    opacity: 0.5;
+    padding: 10px 20px;
+}
+.navbar h1{
+    font-size: 25px;
+    text-align: center;
+}
+.navbar ul{
+    pad: 5px 10px;
+}
+.navbar ul li a{
+    font-size: 12px;
+    padding: 10px;
+}
+
+/*Home section*/
+#home-part{
+    flex-direction: column;
+    padding: 15px 30px;
+    text-wrap: wrap;
+}
+#home-part .image{
+    width: 100%;
+}
+#home-part .image img{
+    width: 250px;
+    height: 250px;
+}
+#home-part #home-info{
+    width: 100%;
+}
+#home-part #home-info #hello{
+    font-size: 18px;
+    text-align: center;
+}
+#home-part #home-info #myname{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#home-part #home-info #last-para{
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#home-part #home-info p{
+    font-size: 14px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-wrap: wrap;
+}
+#home-part #home-info #btn-box{
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+#home-part ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#home-part ul li a{
+    font-size: 15px;
+    margin-right: 25px;
+}
+/*about me section*/
+#about-me{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+#about-me #about-info{
+    width: 100%;
+    padding: 15px 25px;
+}
+#about-me #about-info h1{
+    font-size: 30px;
+}
+#about-me #about-info p{
+    font-size: 16px;
+}
+#about-me .image{
+    width: 100%;
+}
+#about-me .image img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+/*Porfolio part*/
+.container{
+    padding: 50px;
+}
+.sub-title{
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+.services-list div{
+    padding: 20px;
+    text-align: center;
+}
+.services-list div ion-icon{
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
+.services-list div h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.services-list div p{
+    font-size: 16px;
+    text-align: center;
+    text-wrap: wrap;
+}
+.read{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/*Skills section*/
+#Skills{
+    width: 100%;
+}
+#skill-container{
+    width: 85%;
+}
+
+/*Contact section*/
+#contact{
+    flex-direction: column;
+    padding: 20px 35px;
+}
+#contact-info{
+    width: 100%;
+}
+#contact-info h1{
+    font-size: 30px;
+}
+#contact-info p{
+    font-size: 16px;
+}
+#form{
+    width: 100%;
+}
+
+/*scroll top button*/
+.scrollTop-style{
+    position: fixed;
+    right: 10%;
+    bottom: 5%;
+    z-index: 1;
+}
+#myBtn{
+    padding: 10px;
+}
+#myBtn .scrolltop{
+    width: 1.8rem;
+    height: 1.8rem;
+    color: white;
+}
